@@ -52,7 +52,11 @@ body {
         color:#A52A2A;
     }
     nav a { text-decoration: none; }
+    ul {padding:1em;}
     main { 
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    overflow: auto;
     padding-left: 2em;
     padding-right: 2em;
     display: block; 
