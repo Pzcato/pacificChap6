@@ -8,6 +8,7 @@ body {
     #wrapper { 
     background-color: #FFFFFF;
     background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -22,6 +23,18 @@ body {
     color: #FFFFFF;
     font-family: Georgia, serif;
     height: 120px;
+    }
+    header a {
+        text-decoration: none;
+    }
+    header a:link {
+        color:#FFFFFF;
+    }
+    header a:visited {
+        color:#FFFFFF;
+    }
+    header a:hover {
+        color:#90C7E3;
     }
     h1 { 
     text-align: center;
